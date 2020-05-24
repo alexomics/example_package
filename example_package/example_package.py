@@ -1,4 +1,6 @@
 """Main module."""
+
+
 def prime(n):
     if not n % 2:
         return False

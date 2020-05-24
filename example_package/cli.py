@@ -8,7 +8,7 @@ from example_package import example_package as E
 def main():
     """Console script for example_package."""
     parser = argparse.ArgumentParser()
-    parser.add_argument('nums', nargs='+', type=int)
+    parser.add_argument("nums", nargs="+", type=int)
     args = parser.parse_args()
 
     for n in args.nums:
