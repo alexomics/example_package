@@ -35,4 +35,4 @@ jobs:
         pytest
     - name: Black format
       run: |
-        black -t py35 --check --diff *.py
+        black -t py35 --check --diff **/*.py
