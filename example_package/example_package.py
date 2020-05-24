@@ -10,3 +10,6 @@ def prime(n):
             return False
         d = d + 2
     return True
+
+def another_func():
+    pass

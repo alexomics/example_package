@@ -34,5 +34,6 @@ jobs:
       run: |
         pytest
     - name: Black format
+      continue-on-error: true
       run: |
         black -t py35 --check --diff **/*.py
