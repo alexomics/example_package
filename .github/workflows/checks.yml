@@ -30,7 +30,7 @@ jobs:
         STAGED=$(git diff --name-only --cached --ignore-submodules=all --diff-filter=AM '*.py')
         echo $STAGED
     - name: Print slug variables
-    run: |
+      run: |
         echo ${{ env.GITHUB_REF_SLUG }}
         echo ${{ env.GITHUB_HEAD_REF_SLUG }}
         echo ${{ env.GITHUB_BASE_REF_SLUG }}
