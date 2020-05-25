@@ -25,3 +25,6 @@ jobs:
     - name: Black format
       run: |
         black -t py35 --check --diff **/*.py
+    - name: Get changed files
+      run: |
+        git diff --name-only --cached --ignore-submodules=all --diff-filter=AM '*.py'
