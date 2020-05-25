@@ -11,11 +11,10 @@ def prime(n):
         d = d + 2
     return True
 
+
 def another_func():
     pass
 
 
 def another_another_func():
     pass
-
-
