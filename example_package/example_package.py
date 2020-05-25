@@ -12,8 +12,8 @@ def prime(n):
     return True
 
 
-def another_func():
-    pass
+def another_func(a):
+    return a
 
 
 def another_another_func():
